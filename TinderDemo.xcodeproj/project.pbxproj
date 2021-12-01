@@ -13,6 +13,7 @@
 		433A844426AFA82800E574FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433A844226AFA82800E574FD /* Main.storyboard */; };
 		433A844626AFA82900E574FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433A844526AFA82900E574FD /* Assets.xcassets */; };
 		433A844926AFA82900E574FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433A844726AFA82900E574FD /* LaunchScreen.storyboard */; };
+		433A845126AFFED200E574FD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433A845026AFFED200E574FD /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		433A844526AFA82900E574FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		433A844826AFA82900E574FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		433A844A26AFA82900E574FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433A845026AFFED200E574FD /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				433A843E26AFA82800E574FD /* SceneDelegate.swift */,
 				433A844026AFA82800E574FD /* ViewController.swift */,
 				433A844226AFA82800E574FD /* Main.storyboard */,
+				433A845026AFFED200E574FD /* ListViewController.swift */,
 				433A844526AFA82900E574FD /* Assets.xcassets */,
 				433A844726AFA82900E574FD /* LaunchScreen.storyboard */,
 				433A844A26AFA82900E574FD /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				433A844126AFA82800E574FD /* ViewController.swift in Sources */,
 				433A843D26AFA82800E574FD /* AppDelegate.swift in Sources */,
+				433A845126AFFED200E574FD /* ListViewController.swift in Sources */,
 				433A843F26AFA82800E574FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoyu.TinderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoyu.TinderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
